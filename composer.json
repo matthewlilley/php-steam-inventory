@@ -1,0 +1,46 @@
+{
+  "name": "matthewlilley/php-steam-inventory",
+  "description": "A framework agnostic and extensible PHP wrapper for the Steam Inventory API (http://steamcommunity.com/inventory/).",
+  "keywords": ["php", "steam", "inventory"],
+  "license": "MIT",
+  "homepage": "https://matthewlilley.com",
+  "support": {
+    "issues": "https://github.com/matthewlilley/php-steam-inventory/issues",
+    "source": "https://github.com/matthewlilley/php-steam-inventory"
+  },
+  "authors": [
+    {
+      "name": "Matthew Lilley",
+      "email": "hello@matthewlilley.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "doctormckay/steamid": "^1.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "1.0.x-dev",
+    "phpunit/phpunit": "^5.7",
+    "symfony/thanks": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHPSteamInventory\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PHPSteamInventory\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
