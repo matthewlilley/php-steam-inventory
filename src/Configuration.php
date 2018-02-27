@@ -115,7 +115,7 @@ class Configuration implements Contract
         }
 
         if (isset($options['count'])) {
-            if ($options['count'] > 5000 || $this->all()) {
+            if ($options['count'] > 5000 || $this->all) {
                 $this->setCount(5000);
             } else {
                 $this->setCount($options['count']);
