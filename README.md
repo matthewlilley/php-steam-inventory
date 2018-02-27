@@ -28,7 +28,7 @@ $config = new \PHPSteamInventory\Configuration([
 $inventory = new \PHPSteamInventory\Inventory($configuration);
 
 $inventory->items; // array of item objects
-$inventory->total_items; // total items count
+$inventory->total_inventory_count; // total items count
 $inventory->last_assetid; // last assetid (set if there are more items)
 $inventory->more_items; // more items (set to true if there are more items)
 ```
